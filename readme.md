@@ -1,6 +1,6 @@
 # Projeto Busca de Endereço por CEP
 
-![index](https://github.com/filipeassad/campominado/blob/master/img/telainicial.png)
+![index](https://github.com/filipeassad/buscaendereco/blob/master/img/buscaEndereco.PNG)
 
 ### Contato
 
