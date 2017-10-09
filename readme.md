@@ -1,5 +1,7 @@
 # Projeto Busca de Endereço por CEP
 
+![index](https://github.com/filipeassad/campominado/blob/master/img/telainicial.png)
+
 ### Contato
 
 **Email:** filipeassad@gmail.com
