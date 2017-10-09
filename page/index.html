@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Busca Endereço</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> 
+	<link href="https://fonts.googleapis.com/css?family=Luckiest+Guy" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="../css/index.css">
+	<script src="../scripts/buscacep.js"></script>
+</head>
+<body style="background-color: #FFFFFF;">
+
+	<div class="container-fluid">
+			
+		<div class="row" style="background-color: #e83f57;">
+			
+			<div class="col-md-12">
+				<h1 >Busca de Endereço pelo Cep</h1>
+			</div>
+			
+		</div>
+
+		<div class="row">
+			<div class="col-md-12">
+				
+				<form>
+					<div class="linha">						
+						<div class="inlinemiddle rotulo">CEP:</div>
+						<input type="text" id="cep" name="cep" class="inlinemiddle" onblur="">
+						<input type="button" onclick="buscaEndereco(cep.value);" value="Buscar">
+					</div>
+
+					<div class="linha">
+						<div class="inlinemiddle rotulo">Rua:</div>
+						<input id="rua" type="text" name="rua" disabled>
+					</div>
+					<div class="linha">						
+						<div class="inlinemiddle rotulo">Bairro:</div>
+						<input id="bairro" type="text" name="rua" class="inlinemiddle" disabled>
+					</div>
+					<div class="linha">						
+						<div class="inlinemiddle rotulo">Cidade:</div>
+						<input id="cidade" type="text" name="cidade" class="inlinemiddle" disabled>					
+					</div>
+					<div class="linha">						
+						<div class="inlinemiddle rotulo">Estado:</div>
+						<input id="estado" type="text" name="estado" class="inlinemiddle" disabled>						
+					</div>
+				</form>
+
+			</div>
+		</div>
+
+		<div class="row">
+			<p style="margin-top: 50px; text-indent: 20px;">Foi usado o exemplo da página da ViaCEP para criar esse site.</p>
+			
+		</div>
+
+	</div>
+
+</body>
+</html>

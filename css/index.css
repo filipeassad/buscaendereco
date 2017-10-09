@@ -1,0 +1,43 @@
+*{
+	font-family: 'Luckiest Guy', cursive;
+}
+
+h1{
+	width: 100%;
+	color: #FFFFFF;
+	text-align: left;
+	padding-left: 10px;
+}
+
+form{
+	text-align: left;
+}
+
+.inlinemiddle{
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.rotulo{
+	width: 50px;
+	text-align: right;
+}
+
+.linha{
+	margin-top: 20px;
+}
+
+input[type=text]{
+	width: 300px;
+	border: 1px solid #000000;
+	border-radius: 3px;
+	margin-left: 10px;
+	outline: none;
+	padding-left: 10px;
+}
+
+
+input[type=text]:focus{
+	border-radius: 3px;
+	border: 1px solid  #e83f57;
+}
